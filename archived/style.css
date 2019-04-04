@@ -3,7 +3,7 @@ background-image: url(assets/images/bg.png);
 }
 
 .navbar-light {
-  background-image: url(assets/images/gifbg.gif);
+  background-image: url(assets/images/bgtop.png);
   position: fixed;
   z-index: 100;
   width: 100%;
@@ -11,8 +11,7 @@ background-image: url(assets/images/bg.png);
   border-bottom: 3px solid #dddddd;
   left: 0;
   top: 0;
-  padding-bottom: 65px;
-
+  padding: 30px;
 }
 
 .navbar-nav {
@@ -52,7 +51,7 @@ background-image: url(assets/images/bg.png);
   #mainimg {
   float: left;
   border: 0px;
-  padding: 20px;
+  padding: 5px;
   }
   #fun {
   color:white;
@@ -69,28 +68,27 @@ background-image: url(assets/images/bg.png);
   font-weight: 600;
   border-bottom: solid 0px;
   color: teal;
-  background: rgb(179, 179, 179);
-  background-image: url(assets/images/snowbg.gif);
+  background-image: url(assets/images/bgtop.png);
   border-bottom: solid 2px grey;
   }
 
-.navbar-brand{
+#namee {
   float: left;
-  position: relative;
+  position: absolute;
+  left: 75px;
+  top: -20px;
+  width: 350px;
+  height: 90px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 30px;
   font-weight: 700;
-  left: 90px;
-  top: 10px;
+  line-height: 105px;
+  color: white;
   text-align: center;
   text-decoration: none;
+  background: teal;
+  padding: 0px;
   }
-
-#namee {
-    color:black;
-    transition: color .5s;
-}
-
 #namee:hover {
   color: gold;
 }
@@ -99,11 +97,24 @@ background-image: url(assets/images/bg.png);
   color: red;
 }
 
-.navnav{
+.navnav p{
+  display: inline-block;
   position: relative;
   font-weight: 700;
   color:black;
-  top: 35px;
+  top: 10px;
+  padding-left: 15px;
+  margin-left: 15px;
+  line-height: 25px;
+
+  color: black;
+  text-decoration: none;
+  border-left: 3px solid rgb(182, 182, 233);
+  }
+
+.navnav a:first-child {
+  border-left: 0 none;
+
 }
 
 .navnav {
@@ -116,29 +127,24 @@ background-image: url(assets/images/bg.png);
   color:red;
   }
 
+
+    nav a {
+    display: inline-block;
+    padding-left: 15px;
+    margin-left: 15px;
+    line-height: 25px;
+    color: black;
+    text-decoration: none;
+    border-left: 3px solid rgb(182, 182, 233);
+    }
+    nav a:first-child {
+    border-left: 0 none;
+    }
+
 .spacer{
   width: 25px;
 }
 
 .vertspacer {
   height: 50px;
-}
-
-#namee {
-  background: teal;
-  color: white;
-  padding: 20px;
-  float: left;
-  position: absolute;
-  top: -20px;
-  background-image: url(assets/images/gifbg.gif);
-}
-
-.loading111 {
-  font-size: 24px;
-  font-weight: 900;
-}
-
-.col-10.loading {
-  border: 2px black solid;
 }

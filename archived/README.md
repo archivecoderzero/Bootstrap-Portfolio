@@ -9,13 +9,3 @@ Homework 2 for UW Coding Bootcamp
   - index.html base added
     > will export css code in html to a css file , initialy testing it on its own html file . "do not forget to update the background path to ../../assets/images/bg.png after export of code .  "
   - added bootstrap to contact.html
-
-### Version .9 04/03/06
-  - Index.html Completed .
-    > linked and updated the path of css and images 
-    > maximized the "bootstrapiness" of index.html 
-  - Contact.html Completed.
-    > added the bootstrap form and button 
-
----TO BE ADDED to complete version  1.0 
-    > bootstrap-portfolio.html 
