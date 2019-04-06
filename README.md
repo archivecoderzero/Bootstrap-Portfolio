@@ -23,3 +23,10 @@ Homework 2 for UW Coding Bootcamp
 ### Version 1.0 04/04/19
   - Bootstrap-Portfolio.html Base Completed 
     > base html only
+  
+### Version Final 04/05/19
+  - Updated Bootstrap Portfolio.html
+  - Added more bootstrap stuff on contact.html
+  - Changed some stuff overall
+
+## Submiting this version as my entry to the Second Assignment 

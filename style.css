@@ -142,3 +142,37 @@ background-image: url(assets/images/bg.png);
 .col-10.loading {
   border: 2px black solid;
 }
+
+
+.card-title {
+  position: relative;
+  left: 0px;
+}
+
+.card-img-top {
+  height:200px;
+  width:206px;
+}
+
+.card-title{
+  height: 50px;
+}
+
+.card-text {
+  max-height: 150px;
+  overflow: hidden;
+}
+
+.btn.btn-primary.x {float:left;}
+.btn.btn-danger.x {float:left;}
+
+.butbox{ 
+  width:200px;
+  position: relative;
+left:-15px;}
+
+.card-img-top:hover {
+  transition: .5s ease;
+  opacity: 0.9;
+  filter: contrast(200%);
+  }
